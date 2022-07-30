@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Passos com DOM</title>
+    <style>
+        body {
+            font: normal 1.3em Arial;
+            background-color: rgb(79, 121, 199);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
+    <div>Clique em mim</div>
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[0] //0 dentro do colchete é o primeiro paragrafo, se tivesse o 1 seria o segundo e assim por diante
+        window.document.write('Está escrito assim: ' + p1.innerText) //innerText pega o texto sem formatação, para pegalo com as formatações do HTML é necessário usar innerHtml
+    </script>
+</body>
+</html>
