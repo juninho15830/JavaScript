@@ -3,6 +3,7 @@ function carregar() {
     var img = document.getElementById('imagem')
     var data = new Date()
     var hora = data.getHours()
+    var min = data.getMinutes()
     var diaSem = data.getDay()
 
     if (hora >= 0 && hora < 12) {
@@ -42,5 +43,5 @@ function carregar() {
             diaSem =('[ERRO] Dia inválido')
         break 
     }
-    msg.innerHTML = `Hoje é <strong>${diaSem}</strong> e agora são <strong>${hora} horas!</strong>`
+    msg.innerHTML = `Hoje é <strong>${diaSem}</strong> e agora são <strong>${hora} : ${min} horas!</strong>`
 }
