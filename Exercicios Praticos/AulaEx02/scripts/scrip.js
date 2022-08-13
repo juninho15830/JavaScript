@@ -15,12 +15,12 @@ function verificar(){
         var fsex = document.getElementsByName('radsex')
         var idade = ano - Number(fano.value)
         var genero = ''
-        var img = document.createElement('img')
-        img.setAttribute('id', 'foto')
+        var img = document.createElement('img')//cria um elemento com a tag <img>
+        img.setAttribute('id', 'foto')//cria um id="foto" dentro da tag <img>
         if (fsex[0].checked) {
             genero = 'homem'
             if (idade >= 0 && idade < 10) {
-                img.setAttribute('src', './images/menino.png')
+                img.setAttribute('src', './images/menino.png')//coloca o atributo src dentro da tag <img> em questão.
                 genero = 'menino'
             } else if (idade < 21) {
                 img.setAttribute('src', './images/rapaz.png')
@@ -54,6 +54,6 @@ function verificar(){
         }      
         res.style.textAlign = 'center'
         res.innerHTML = `<p>Detectamos ${genero} com ${idade} anos.</p>`
-        res.appendChild(img)
+        res.appendChild(img)//Adiciona um elemento, que neste caso é o img.
     }
 }

@@ -2,7 +2,7 @@ function carregar() {
     var msg = document.getElementById('msg')
     var img = document.getElementById('imagem')
     var data = new Date() 
-    var hora = ("0" + data.getHours()).slice(-2)
+    var hora = ("0" + data.getHours()).slice(-2)//("0" + .....()).slice(-2) Acrescenta o zero a esquerda do número e o delimita com duas casas ex: 1 se torna 01.
     var min = ("0" + data.getMinutes()).slice(-2)
     var diaSem = data.getDay()
 
@@ -17,7 +17,7 @@ function carregar() {
         document.body.style.background = '#223947'
     } 
 
-    switch(diaSem) {
+    switch(diaSem) { //Como o getDay() busca o dia da semana por número, é possivel aterar por strig com o dia correto desta forma.
         case 0:
             diaSem = ('Domingo')
             break
@@ -34,13 +34,13 @@ function carregar() {
             diaSem = ('Quinta-Feira')
             break
         case 5:
-            diaSem =('Sexta-Feira')
+            diaSem = ('Sexta-Feira')
             break
         case 6:
-            diaSem =('Sábado')
+            diaSem = ('Sábado')
             break
         default:
-            diaSem =('[ERRO] Dia inválido')
+            diaSem = ('[ERRO] Dia inválido')
         break 
     }
     msg.innerHTML = `Hoje é <strong>${diaSem}</strong> e agora são <strong>${hora} : ${min} horas!</strong>`
