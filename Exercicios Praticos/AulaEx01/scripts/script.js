@@ -1,9 +1,9 @@
 function carregar() {
     var msg = document.getElementById('msg')
     var img = document.getElementById('imagem')
-    var data = new Date()
-    var hora = data.getHours()
-    var min = data.getMinutes()
+    var data = new Date() 
+    var hora = ("0" + data.getHours()).slice(-2)
+    var min = ("0" + data.getMinutes()).slice(-2)
     var diaSem = data.getDay()
 
     if (hora >= 0 && hora < 12) {
