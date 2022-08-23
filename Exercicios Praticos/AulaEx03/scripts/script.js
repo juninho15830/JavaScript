@@ -13,6 +13,7 @@ function contar() {
         let p = Number(passo.value)
         if (p <= 0) {
             window.alert('O passo deve ser maior que zero')
+            p = 1
         }
         if (i < f) {
             for (let c = i; c <= f; c += p) {
