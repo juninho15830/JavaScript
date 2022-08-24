@@ -12,7 +12,7 @@ function contar() {
         let f = Number(fim.value)
         let p = Number(passo.value)
         if (p <= 0) {
-            window.alert('O passo deve ser maior que zero')
+            window.alert('O passo deve ser maior que zero. Passo recebe 1')
             p = 1
         }
         if (i < f) {
