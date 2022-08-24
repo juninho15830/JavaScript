@@ -24,5 +24,6 @@ function contar() {
                 res.innerHTML += `${c} \u{1F449}`
             }
         }
+        res.innerHTML += '\u{1F3C1}'
     }
 }
