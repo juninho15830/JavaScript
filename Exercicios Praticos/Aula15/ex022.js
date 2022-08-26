@@ -22,4 +22,4 @@ let pos = num.indexOf(8)
     if(pos == -1) {
         console.log(`Elemento não encontrado`)
     } else {
-        console.log(`A posição do elemento 8 é ${pos}`)}
+        console.log(`A posição do elemento 8 está na posição ${pos}`)}
