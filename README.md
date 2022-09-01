@@ -8,3 +8,5 @@
  <a href="https://juninho15830.github.io/JavaScript/Exercicios%20Praticos/AulaEx03/ex020.html"> Contador</a>
 
  <a href="https://juninho15830.github.io/JavaScript/Exercicios%20Praticos/AulaEx04/ex021.html"> Tabuada</a>
+ 
+ <a href="https://juninho15830.github.io/JavaScript/Exercicios%20Praticos/AulaEx04/ex028.html"> Analisador de Números</a>
