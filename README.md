@@ -9,4 +9,4 @@
 
  <a href="https://juninho15830.github.io/JavaScript/Exercicios%20Praticos/AulaEx04/ex021.html"> Tabuada</a>
  
- <a href="https://juninho15830.github.io/JavaScript/Exercicios%20Praticos/AulaEx04/ex028.html"> Analisador de Números</a>
+ <a href="https://juninho15830.github.io/JavaScript/Exercicios%20Praticos/AulaEx05/ex028.html"> Analisador de Números</a>
